@@ -4,4 +4,4 @@ import { validateStudent } from "../middlewares/validation.middleware.js";
 
 export const enrollRoute = express.Router();
 
-enrollRoute.post("/enroll", validateStudent, enrollStudent);
+enrollRoute.post("/enrollStudent", validateStudent, enrollStudent);

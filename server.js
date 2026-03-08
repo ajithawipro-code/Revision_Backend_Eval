@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(logger);
 
 app.use("/courses", courseRoute);
-app.use("/enrollments", enrollRoute);
+app.use("/enroll", enrollRoute);
 
 
 const PORT = process.env.PORT || 5656;
