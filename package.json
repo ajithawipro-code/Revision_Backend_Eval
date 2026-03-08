@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ajithawipro-code/Revision_Backend_Eval/issues"
   },
-  "homepage": "https://github.com/ajithawipro-code/Revision_Backend_Eval#readme"
+  "homepage": "https://github.com/ajithawipro-code/Revision_Backend_Eval#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
 }
